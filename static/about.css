@@ -1,0 +1,23 @@
+#img-headshot{
+    width: 30vw;
+    height: 30vh;
+    display: inline-block;
+    margin-bottom: 6em;
+}
+
+header{
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 6em;
+}
+
+h1{
+    margin-bottom: 6em;
+}
+
+main{
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}

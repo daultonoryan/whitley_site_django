@@ -1,0 +1,40 @@
+main{
+    margin-top: 6em;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 6em;
+}
+
+#product-img {
+    float: left;
+    width: 40vw;
+    max-height: 75vh;
+    margin-right: 5vw;
+}
+
+#text-hold{
+    margin-right: 5vw;
+    text-align: center;
+    color: #093145;
+}
+
+#payment{
+    float: bottom;
+    text-align: center;
+    margin-right: 5vw;
+    margin-top: 3vh;
+}
+
+#title{
+    margin-bottom: 3vh;
+    color: #093145;
+}
+
+
+#addcart{
+    display: inline-block;
+}
+
+#buynow{
+    display: inline-block;
+}

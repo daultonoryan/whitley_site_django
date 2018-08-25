@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'blowup_personal_useregular';
+    src: url('fonts/Blowup/blowup_personal_use-webfont.woff2') format('woff2'),
+    url('fonts/Blowup/blowup_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-li{
+    display: block;
+    color: #000000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: blowup_personal_useregular;
+    font-style: normal;
+    font-weight: normal;
+}

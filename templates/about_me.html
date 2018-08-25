@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    {% load staticfiles %}
+    <link href="{% static 'navbar.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'about.css' %}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            {% include "nav_bar.html" %}
+        </div>
+    </header>
+    <main>
+        <h1>About Whitley Sink</h1>
+        <img id="img-headshot" src={% static "imgs/youve_been_replaced.jpeg" %}/>
+        <section id="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae hendrerit magna. Sed facilisis pellentesque tincidunt. Cras at urna efficitur, mollis arcu et, malesuada justo. Aenean sed velit dui. Sed eu felis et quam sollicitudin fermentum. Praesent faucibus nisi sed risus ultricies, vitae feugiat enim imperdiet. Mauris gravida massa est, vehicula facilisis ligula auctor et.</p>
+            <p>Integer mollis turpis id mollis viverra. Cras placerat sed lectus in commodo. Suspendisse eget dapibus ante. Cras sed rhoncus nibh. Integer vel odio dolor. Praesent non sem a arcu congue condimentum sed sed risus. Morbi pretium fermentum odio, eu vulputate urna. In tempor tellus posuere, sollicitudin justo in, scelerisque turpis. Donec tincidunt, dolor nec volutpat maximus, odio nisi posuere purus, a semper urna justo vitae ex. Phasellus sit amet orci nec ligula faucibus rhoncus. Nulla facilisi. Aenean ac ipsum quis augue ultrices volutpat. Quisque gravida enim eu mi mattis sollicitudin vel nec neque.</p>
+            <p>Curabitur elementum justo sagittis nulla auctor consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse justo ipsum, tincidunt ac posuere sit amet, pharetra a risus. Praesent id lacinia mi, non hendrerit purus. Vivamus lacus lacus, consectetur et tincidunt eget, volutpat vel felis. Phasellus bibendum mauris massa, a porttitor purus dignissim vestibulum. In et neque nisl. In laoreet magna eget massa fringilla volutpat. Vestibulum maximus risus eget tortor dapibus maximus. Cras condimentum dui eget arcu pharetra hendrerit. Pellentesque vitae aliquam eros. Cras fermentum elit at nulla ultricies iaculis. Aliquam ut eros erat. Nulla in ligula pulvinar, dapibus neque in, gravida dui.</p>
+            <p>Duis efficitur vitae lorem nec congue. Maecenas blandit arcu et tempor condimentum. Cras a leo pulvinar, aliquet sapien a, ullamcorper ligula. Phasellus imperdiet lacus eget arcu finibus blandit. Donec vehicula metus et odio accumsan, eget mattis quam ultricies. Nam quis velit ut velit volutpat dictum. Nullam commodo hendrerit dui at ullamcorper. Praesent ornare tellus at dignissim mollis.</p>
+            <p>Pellentesque cursus aliquet odio a pharetra. Fusce venenatis tincidunt urna, eget porttitor erat pellentesque id. Ut tristique eros id mattis auctor. Aenean semper, dolor ut gravida facilisis, felis leo dictum velit, quis tempor nisl nisi id augue. Vestibulum ac condimentum ante. Pellentesque sed aliquam est, ut lacinia mi. Fusce rhoncus lorem in nunc scelerisque, sit amet sagittis tellus ullamcorper. Donec eleifend mauris vel tellus faucibus rhoncus. In a malesuada erat. Fusce scelerisque nunc placerat gravida ullamcorper. Donec non blandit nunc, sit amet finibus purus. Aliquam vulputate, ante in tempor dapibus, dui metus pellentesque elit, sed cursus dui lorem non sem. Praesent vitae aliquam quam. Phasellus volutpat ultrices consequat.</p>
+            <p>Duis dui erat, varius non ligula eu, blandit tempor est. Sed aliquet, nisi ac iaculis venenatis, massa ligula tempor nunc, eget dictum tellus sem nec lorem. Duis auctor tincidunt sagittis. Sed sed fermentum purus, sit amet pretium justo. Phasellus eget risus purus. Proin at odio vitae purus auctor consectetur. Quisque vulputate sem lacus, dignissim rhoncus tortor ultricies in. Integer vitae faucibus lacus.</p>
+            <p>Nullam elementum, purus at convallis mollis, erat odio eleifend diam, id sodales orci enim sed turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec vulputate lectus porttitor metus rhoncus interdum. Proin et blandit sapien. Vestibulum ipsum nunc, feugiat ac luctus in, fringilla id lacus. Phasellus porttitor ipsum a turpis aliquam pulvinar. Aliquam eu est sit amet metus efficitur placerat a eget massa. Nulla hendrerit odio in ligula aliquam finibus maximus non leo. Duis sit amet venenatis libero. Vivamus eros erat, eleifend et lacus eget, dignissim accumsan odio. Fusce gravida eget mi vitae congue. Maecenas pharetra diam et est pharetra tempor.</p>
+            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sit amet magna egestas, commodo sem nec, euismod felis. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam et elit felis. Quisque egestas nisl quis nunc fringilla, quis laoreet arcu fringilla. Ut aliquam vel neque id lacinia. Suspendisse potenti. Pellentesque sit amet fringilla est. Morbi quis hendrerit magna. Cras dignissim interdum luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ut nulla ac urna luctus eleifend. In non ipsum at nisl pellentesque tempor. Nam ante dolor, mollis vitae ante sit amet, ultrices molestie mi. Pellentesque et sagittis sapien.</p>
+        </section>
+    </main>
+</body>
+</html>
